@@ -1,0 +1,193 @@
+/***** SELECTORS *****/
+body {
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  background-color: #F0FFFF;
+  line-height: 2em;
+}
+
+h1 {
+  /* font-size best in % since it's dynamic */
+  font-size: 5.625rem; /* 100% = 16px. 90px is desired px size.
+  So 90/16 = 5.625 * 100 = 562.5%
+  Additionally, 1em = 16px = 100%
+  So, 90/16 = 5.625em
+  Adding the r means it does not inheret the parent's size.
+  em used to come from the width of the letter M */
+  font-family: 'Amatic SC', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: grey;
+  margin: 75px auto 75px auto;
+}
+
+/***** CLASS *****/
+/* TOP CONTAINER */
+.text-top {
+  font-weight: normal;
+  line-height: 2;
+}
+
+.father {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.programmer {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.gamer {
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: .5px .5px #ff0000;
+}
+
+.top-container {
+  /*making it relative so i can make .two-cloud aboslute*/
+  position: relative;
+}
+
+.one-cloud {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  text-align: center;
+}
+
+.two-cloud {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
+
+.text-top {
+  position: relative;
+  top: 50px;
+}
+
+/* MIDDLE CONTAINER */
+.profile-pic {
+  border-radius: 50%;
+}
+
+.bio {
+  width: 20%;
+  margin: auto;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.web-dev {
+  text-align: right;
+}
+
+.coding-img {
+  width: 25%;
+  float: right;
+  padding-left: 2em;
+}
+
+.gaming-img {
+  width: 25%;
+  float: left;
+  padding-right: 2em;
+}
+
+.contact-me {
+  margin: auto auto 50px auto;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: auto auto 40px auto;
+}
+
+.button {
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+   background-image: -moz-linear-gradient(top, #11999E, #11999E);
+   background-image: -ms-linear-gradient(top, #11999E, #11999E);
+   background-image: -o-linear-gradient(top, #11999E, #11999E);
+   background-image: -webkit-gradient(to bottom, #11999E, #11999E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 16px;
+   color: #FFFFFF;
+   font-family: 'Oxygen', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #11999E 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button:hover {
+   border: solid #11999E 1px;
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #3D94F6);
+   background-image: -moz-linear-gradient(top, #11999E, #3D94F6);
+   background-image: -ms-linear-gradient(top, #11999E, #3D94F6);
+   background-image: -o-linear-gradient(top, #11999E, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #11999E, #3D94F6);
+   -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   border-radius: 16px;
+   text-decoration: none;
+}
+/* BOTTOM CONTAINER */
+.bottom-container {
+  background-color: #11999E;
+  color: #EAF6F6;
+  padding-bottom: 100px;
+  padding-top: 40px;
+  word-spacing: 30px;
+}
+
+.footer-link {
+  color: black;
+  text-decoration: none;
+}
+
+.copyright {
+  word-spacing: 0;
+  position: relative;
+  top: 30px;
+}
+/***** ID *****/
