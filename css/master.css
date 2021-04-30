@@ -122,7 +122,8 @@ hr {
 }
 
 .gaming-img {
-  width: 25%;
+  width: 30%;
+  height: auto;
   float: left;
   padding-right: 2em;
 }
@@ -160,6 +161,7 @@ hr {
    display: inline-block;
    cursor: pointer;
    text-align: center;
+   margin-left: 15px;
 }
 
 .button:hover {
